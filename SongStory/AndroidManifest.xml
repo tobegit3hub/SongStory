@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aliceinwc"
+    android:versionCode="2"
+    android:versionName="2.3.1" >
+
+    <uses-sdk android:minSdkVersion="7" /> <!-- 7 for 2.1 and 10 for 2.3.3 -->
+    
+        
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/><!-- detect wifi state -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/><!-- access sd card -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/><!-- delete file in sd card -->
+    <uses-permission android:name="android.permission.INTERNET" /><!-- http get -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- vibrate when shaking -->
+
+    <application
+        android:icon="@drawable/song_story_icon"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".ui.StoryListActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+
+         <activity
+            android:name=".ui.StoryDetailActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        
+         
+         <service 
+		    android:enabled="true"
+		    android:name=".ui.MusicPlayService" >		
+		 </service>
+        
+         <activity
+            android:name=".ui.AboutActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+         
+    </application>
+    
+
+
+</manifest>

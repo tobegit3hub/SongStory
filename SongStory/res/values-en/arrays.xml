@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="welcome_strings">
+        <item>A Brand-new Experience</item>
+        <item>Tell The Story Behind The Song</item>
+        <item>Concentrate On Offline Reading</item>
+        <item>Believe In The Power Of Content</item>
+    </string-array>
+    <string-array name="story_list_category_title">
+        <item>HongKong Style</item>
+        <item>Traditional Chinese</item>
+        <item>Blonde Beauty</item>
+        <item>ヤーペン島</item>
+        <item>Third-party Radio</item>
+    </string-array>
+    <string-array name="story_list_category_title_specification">
+        <item>Cantonese Song Collection</item>
+        <item>Mandarin Song Collection</item>
+        <item>English Song Collection</item>
+        <item>Asian Song Collection</item>
+        <item>Other Song Collection</item>
+    </string-array>
+
+</resources>
