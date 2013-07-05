@@ -1,0 +1,153 @@
+@CHARSET "UTF-8";
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a, a:visited{
+    color: red;
+}
+
+a:hover, a:visited:hover{
+    color: purple;
+}
+
+html, body{
+    width: 100%;
+    font-family: Helvetica, sans-serif, Arial;
+    background: #ffffff;
+}
+
+
+#container{
+    width: 1000px;
+    margin: 50px auto 50px auto;
+    
+}
+
+header{
+    background-color: grey;
+    padding: 30px;
+}
+
+
+#content{
+    background-color: lightgrey;
+    padding: 30px 30px 50px 30px;
+
+}
+
+footer{
+    background-color: grey;
+    clear: both;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#header_link{
+    float: right;
+    font-size: 20px;
+    display: none;
+}
+
+#header_icon{
+    width: 72px;
+    margin: 10px 0px 0px 10px;
+}
+
+#header_title{
+    font-size: 50px;
+
+}
+
+#header_icon:hover, #header_title:hover{
+    cursor: pointer;
+
+}
+
+#header_title_highlight{
+    color: red;
+    
+}
+
+.screenshots{
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.screenshots img{
+   width: 350px;
+   float: left;
+}
+
+#description{
+    float: right;
+    width: 500px;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+
+#resources{
+    clear: both;
+    padding-top: 80px;
+
+}
+
+table, th, td{
+    border: 1px, solid, red;
+    border-spacing: 5px;
+    padding: 10px;
+}
+
+table{
+    border: 1px, solid, red;
+    margin: auto;
+}
+
+th{
+    height: 50px;
+    background-color: grey;
+    color: white;
+}
+
+.footer_icon{
+    width: 48px;
+}
+
+#footer_text{
+    font-size: 30px;
+    margin: 10px 20px 20px 10px;
+}
+
+#footer_text_highlight{
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.hidden{
+    display: none;
+}
+
+/* Slideshow code from here */
+ul.choose_list {
+    margin-left: 20px;
+    font-size: 20px;
+    list-style: none; 
+    z-index: 2; }
+
+ul.choose_list li { margin: 0; padding: 0; display: inline; }
+
+ul.choose_list li a, ul.choose_list li a:visited { display: block; float: left; background: #e5e5e5; padding: 4px 8px; margin-right: 1px; color: #000; text-decoration: none; cursor: pointer; }
+
+ul.choose_list li a:hover, ul.choose_list li a:visited:hover { background: #666; color: #fff; }
+
+ul.choose_list li a.current { background: #f00; color: #fff; }

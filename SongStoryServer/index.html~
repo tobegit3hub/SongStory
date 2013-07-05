@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SongStoryServer</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="image/favicon.ico" />
+  <link rel="shortcut icon" href="image/favicon.ico" />
+
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <header>
+      
+      <div id="header_link">  
+	    Video: <a href="http://www.chendihao.cn/songstory-presentation-video/" target="_blank">SongStory.avi</a><br/>
+	    Github: <a href="https://github.com/tobegit3hub/SongStory.git" target="_blank">SongStory.git</a><br/>
+	    Download: <a href="file/SongStory.apk">SongStory.apk</a>
+      </div>
+
+      <img id="header_icon" src="image/song_story_icon.png" />
+
+      <h1 id="header_title">SongStory<span id="header_title_highlight">Server</span></h1>
+
+    </header>
+
+    <div id="content">
+
+      <div id="description">
+	<p>
+&nbsp;&nbsp;&nbsp;&nbsp;   SongStory是集音乐欣赏与文章阅读于一体的阅读软件。它将歌曲与歌曲背后的故事重新关联起来，听着《那些年》，一起体验九把刀逝去的青春故事。同时创作团队对内容进行严格筛选，相信精品阅读的力量，提供颠覆性的阅读体验。<br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  SongStory也是一款休闲的离线播放器，随时随地听歌看故事，同时我们提供下载功能，Wifi环境下即可获得更多精彩内容。<br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  已荣获“华为开发者联盟杯”软件创意大赛三等奖、“UC优视杯”创新创业大赛二等奖！！<br/><br/>
+
+五大亮点特性：<br/>
+<b>1.歌曲故事，全新的阅读体验</b><br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  SongStory团队为你精心挑选歌曲与文章，提供音乐故事一站式阅读，讲述歌曲背后的故事，打造全新的阅读体验！<br/><br/>
+
+<b>2.离线阅读，随时随“悦”</b><br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  与传统文本阅读器相比，SongStory更专注于离线阅读，歌曲故事的本地化让你随时随地都能“悦”起来！<br/><br/>
+
+<b>3.界面清新，轻松阅读</b><br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  参考Flipboard、Zaker、iFanr等新媒体产品，SongStory的设计更加简洁，更专注于精品内容的展示！<br/><br/>
+
+<b>4.下载更多，阅读无限</b><br/>
+&nbsp; &nbsp;&nbsp;&nbsp;  想获得更多的歌曲故事？没问题，Wifi环境下自动连接服务器，下载更多精彩内容，更支持电脑下载拷贝到SD卡！<br/><br/>
+
+<b>5.精彩内容，一键分享</b><br/>
+&nbsp; &nbsp&nbsp;&nbsp;  歌曲分类精选，粤语、国语、英语总有一款适合你！看到有意思的内容，那就通过“一键分享”转发给好友吧！！
+	</p>
+	
+      </div>
+
+      <div class="screenshots">
+        
+	<img id="screenshot1" src="image/welcome.jpg">
+	<img id="screenshot2" src="image/list1.jpg" />
+	<img id="screenshot3" src="image/list2.jpg" />
+	<img id="screenshot4" src="image/detail.jpg" />
+	<img id="screenshot5" src="image/about.jpg" />
+
+        <ul class="choose_list">
+          <li><a href="#screenshot1" class="current">1</a></li>
+          <li><a href="#screenshot2">2</a></li>
+          <li><a href="#screenshot3">3</a></li>
+          <li><a href="#screenshot4">4</a></li>
+          <li><a href="#screenshot5">5</a></li>
+	  <li><a href="http://www.chendihao.cn/songstory-presentation-video/" target="_self">演示视频</a></li>
+        </ul>	
+
+      </div>
+
+
+      <div id="resources">
+
+	<table>
+	  <tr>
+	    <th>歌曲故事</th>
+	    <th>歌手</th>
+	    <th>类别</th>
+	    <th>文件地址</th>
+	    <th>下载</th>
+	  </tr>
+
+          <tr>
+            <td>天梯</td>
+            <td>C AllStar</td>
+            <td>粤语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/001.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/001.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>天亮了</td>
+            <td>韩红</td>
+            <td>国语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/101.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/101.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>What Are Words</td>
+            <td>Chris Medina</td>
+            <td>英语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/201.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/201.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>Because I'm A Girl</td>
+            <td>申贤俊、吴慧秀</td>
+            <td>日韩</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/301.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/301.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>Canon(D Major)</td>
+            <td>Johann Pachelbel</td>
+            <td>其他</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/401.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/401.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>再见二丁目</td>
+            <td>杨千嬅</td>
+            <td>粤语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/002.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/002.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>睡公主</td>
+            <td>邓紫棋</td>
+            <td>粤语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/003.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/003.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>可惜不是你</td>
+            <td>梁静茹</td>
+            <td>国语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/102.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/102.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>那些年</td>
+            <td>胡夏</td>
+            <td>国语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/103.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/103.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>Back To December</td>
+            <td>Taylor Swift</td>
+            <td>英语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/202.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/202.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>My Heart Will Go On</td>
+            <td>Celine Dion</td>
+            <td>英语</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/203.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/203.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>目标是神奇宝贝大师</td>
+            <td>松本梨香</td>
+            <td>日韩</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/302.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/302.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>江南style</td>
+            <td>PSY</td>
+            <td>日韩</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/303.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/303.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>志明与春娇</td>
+            <td>彭浩翔</td>
+            <td>其他</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/402.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/402.ss">下载</a></td>
+          </tr>
+          <tr>
+            <td>仰望天空的孩子</td>
+            <td>郑灿标</td>
+            <td>其他</td>
+            <td>http://www.chendihao.cn/SongStoryServer/ss/403.ss</td>
+            <td><a href="http://www.chendihao.cn/SongStoryServer/ss/403.ss">下载</a></td>
+          </tr>
+
+
+
+	</table>
+      </div>
+      
+    </div> <!-- end of content -->
+
+    <footer>
+      <img class="footer_icon" src="image/song_story_icon.png" />
+
+      <span id="footer_text">Power by <span id="footer_text_highlight">Alice in WC</span></span>
+
+      <img class="footer_icon" src="image/song_story_icon_old.png" />
+
+    </footer>
+
+  </div> <!-- end of container -->
+
+</body>
+</html>
