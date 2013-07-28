@@ -27,6 +27,12 @@ SongStory
 ## Homepage
 <http://www.chendihao.cn/SongStoryServer>
 
+## Develpers
+* [tobe (陈迪豪)](http://www.chendihao.cn)
+* kiic (梁楚华)
+* bintou (黄健彬)
+* easyhard (陈奕男)
+
 ## Technology
 * Android
 * Java
