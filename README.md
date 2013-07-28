@@ -44,5 +44,4 @@ SongStory
 * JQuery
 * CSS
 * Python
-* Zip libery
-
+* Zip library
