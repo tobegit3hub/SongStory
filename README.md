@@ -45,12 +45,12 @@ SongStory团队为你精心挑选歌曲与文章，提供音乐故事一站式�
 
 ## 程序截图
 <div style="display: inline-block;"> 
-<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/welcome.jpg" style="width: 150px;" />
+<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/welcome.jpg" style="max-width:20%;" />
 
-<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/list.jpg" style="width: 150px;" />
+<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/list.jpg" style="max-width:20%;" />
 
-<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/detail.jpg" style="width: 150px;" />
+<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/detail.jpg" style="max-width:20%;" />
 
-<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/about.jpg" style="width: 150px;" />
+<img src="https://raw.github.com/tobegit3hub/SongStory/master/screenshot/about.jpg" style="max-width:20%;" />
 </div>
 
