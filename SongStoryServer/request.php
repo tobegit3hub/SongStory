@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
+  <head>
     <title>SongStoryServer</title>
+  </head>
 
-
-</head>
-
-<body>
-    
-
+  <body>
     <form action="./response.php" method="GET" >
-        Category Number: <input type="text" name="category_number"/>
-        Song Number: <input type="text" name="song_number" />
+      Category Number: <input type="text" name="category_number"/>
+      Song Number: <input type="text" name="song_number" />
 
-        <br/>
-        <input type="submit" name="submit">
+      <br/>
+      <input type="submit" name="submit">
     </form>
-
-
-</body>
-
+  </body>
 </html>
 
