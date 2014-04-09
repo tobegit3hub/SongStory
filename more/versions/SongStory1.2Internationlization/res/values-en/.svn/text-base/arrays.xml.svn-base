@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pref_notification_choices">
+        <item>Apagado</item>
+        <item>Notificaciones</item>
+        <item>Sonido</item>
+        <item>Vibración</item>
+        <item>Sonido y vibración</item>
+    </string-array>
+    <string-array name="supported_emails">
+        <item>gmail.com</item>
+        <item>hotmail.com</item>
+    </string-array>
+    <string-array name="pref_privacy_fri_verify_choices">
+        <item>No requiere confirmar</item>
+        <item>Sí requiere confirmar</item>
+        <item>Desactivar "Añadir"</item>
+    </string-array>
+    <string-array name="remind_week_days">
+        <item>Dom.</item>
+        <item>Lun.</item>
+        <item>Mar.</item>
+        <item>Mié.</item>
+        <item>Jue.</item>
+        <item>Vie.</item>
+        <item>Sáb.</item>
+    </string-array>
+    <string-array name="remind_repeat_mode_week_days">
+        <item>Lun.</item>
+        <item>Mar.</item>
+        <item>Mié.</item>
+        <item>Jue.</item>
+        <item>Vie.</item>
+        <item>Sáb.</item>
+        <item>Dom.</item>
+    </string-array>
+    <string-array name="picture_quick_choices">
+        <item>Cámara</item>
+        <item>Galería de fotos</item>
+        <item>GIF</item>
+    </string-array>
+</resources>

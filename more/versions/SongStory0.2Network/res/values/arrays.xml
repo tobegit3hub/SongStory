@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="welcome_strings">
+        <item>讲述歌曲背后的故事</item>
+        <item>专注于离线阅读</item>
+        <item>一种全新的阅读体验</item>
+        <item>阅读音符</item>
+        <item>相信精品阅读的力量</item>
+    </string-array>
+    <string-array name="story_list_category_title">
+        <item>粤语词坛</item>
+        <item>逃不掉的华语流行</item>
+        <item>欧美的调调很动听</item>
+        <item>云端の日子</item>
+        <item>第三电台</item>
+    </string-array>
+    <string-array name="story_list_category_title_specification">
+        <item>粤语歌曲精选</item>
+        <item>国语歌曲精选</item>
+        <item>英语歌曲精选</item>
+        <item>日韩歌曲精选</item>
+        <item>其他歌曲精选</item>
+    </string-array>
+
+</resources>

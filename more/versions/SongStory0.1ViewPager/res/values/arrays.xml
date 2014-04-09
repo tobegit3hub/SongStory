@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="welcome_strings">
+        <item >讲述歌曲背后的故事</item>
+		<item >专注于离线阅读</item>
+
+    </string-array>
+
+    
+
+</resources>

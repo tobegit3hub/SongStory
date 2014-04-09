@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ViewFlipper
+            android:id="@+id/story_list_header_flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="230dip"
+            android:visibility="visible" >
+        </ViewFlipper>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/story_list_header_flipper"
+            android:src="@drawable/whiteline" />
+    </RelativeLayout>
+
+</LinearLayout>

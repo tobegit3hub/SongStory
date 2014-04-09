@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:drawable="@drawable/about"/>
+    <item android:drawable="@drawable/about_down" android:state_pressed="true"/>
+
+</selector>

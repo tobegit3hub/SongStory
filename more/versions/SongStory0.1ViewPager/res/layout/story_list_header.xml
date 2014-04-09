@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="300dip"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:id="@+id/story_list_header_image"
+        android:layout_width="fill_parent"   
+		android:layout_height="300dip"   
+		android:src="@drawable/cantonese_category_0"/>
+             
+    <android.support.v4.view.ViewPager  
+        android:id="@+id/story_list_header_pager"
+		android:layout_width="fill_parent"   
+		android:layout_height="fill_parent"   
+		/>
+
+</LinearLayout>

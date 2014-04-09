@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/upbackground"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/turnback"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="5dip"
+                    android:background="#00000000"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/leftarrow" />
+
+                <TextView
+                    android:id="@+id/songname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:text="@string/songname"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/singername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:text="@string/singer"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/upbackground"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dip" >
+
+                    <ImageView
+                        android:id="@+id/specialedition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dip"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/specialedition" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/closeupep"
+                            android:textColor="@color/grey"
+                            android:textSize="15sp" />
+
+                        <com.aliceinwc.lyrics.LyricView
+                            android:id="@+id/lycView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dip"
+                            android:layout_weight="0.96" />
+
+                        <SeekBar
+                            android:id="@+id/seekBar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:maxHeight="10dip"
+                            android:minHeight="10dip"
+                            android:paddingLeft="5dip"
+                            android:paddingRight="5dip"
+                            android:layout_marginBottom="5dip"
+                            android:progressDrawable="@drawable/seekbar_img"
+                            android:thumb="@drawable/playbar_current_button"
+                            android:thumbOffset="0dip" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="5dip" >
+
+                            <ImageButton
+                                android:id="@+id/play"
+                                android:layout_width="30dip"
+                                android:layout_height="30dip"
+                                android:layout_marginLeft="15dip"
+                                android:background="#00000000"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/play" />
+
+                            <ImageButton
+                                android:id="@+id/pause"
+                                android:layout_width="30dip"
+                                android:layout_height="30dip"
+                                android:layout_marginLeft="15dip"
+                                android:background="#00000000"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/pause" />
+
+                            <ImageButton
+                                android:id="@+id/stop"
+                                android:layout_width="30dip"
+                                android:layout_height="30dip"
+                                android:layout_marginLeft="15dip"
+                                android:background="#00000000"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/stop" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/whiteline" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/first_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/first_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="10dip"
+                            android:paddingRight="5dip"
+                            android:singleLine="true"
+                            android:text="你瞒我瞒？你瞒？  "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/first_info"
+                                android:layout_width="0dip"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:ellipsize="end"
+                                android:lines="8"
+                                android:text=" 陈柏宇（Jason Chan），1983年7月20日出生于香港、在加拿大长大的男歌手，为香港SONY BMG旗下的艺人，他的声线与李克勤及郑中基有几分相似。陈柏宇被大众公认为近年出道新人中歌声最好的其中一人，其实力甚至比部份出道年资较深的歌手更强..."
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <ImageView
+                                android:id="@+id/poster"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dip"
+                                android:layout_weight="2"
+                                android:src="@drawable/poster" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:alpha="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="..."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cutline" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/second_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/second_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:paddingBottom="10dip"
+                            android:paddingRight="5dip"
+                            android:singleLine="true"
+                            android:text="MV背后的故事，谁对谁错"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:alpha="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="..."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cutline" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/third_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <TextView
+                            android:id="@+id/third_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:paddingBottom="10dip"
+                            android:paddingRight="5dip"
+                            android:singleLine="true"
+                            android:text="填词林夕的  故事"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:alpha="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="..."
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/cutline" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/main_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/the_title"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:ellipsize="marquee"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:marqueeRepeatLimit="marquee_forever"
+                                android:paddingBottom="10dip"
+                                android:paddingRight="5dip"
+                                android:scrollHorizontally="true"
+                                android:singleLine="true"
+                                android:text="你瞒我瞒？你瞒？还是我暪？开发接口了文件分类为肌肤v迷如金额开始  "
+                                android:textColor="@color/black"
+                                android:textSize="20sp" />
+
+                            <ImageButton
+                                android:id="@+id/up_arrow"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:background="@color/nocolor"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/up_black_arrow"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relate_level2"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level2"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dip"
+            android:background="@drawable/icon_menu" />
+
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/icon_search" />
+
+        <ImageButton
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dip"
+            android:background="@drawable/icon_myyouku" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relate_level1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/level1" 
+        android:alpha="0.5">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/icon_home" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SongStory</string>
+    <string name="songstory">SongStory</string>
+    <string name="copyright_alice_in_wc">Copyright © Alice in W.C.</string>
+    <string name="first_run_configure">Loading the configuration file</string>
+    <string name="unziping_please_wait">Loading SS files, please wait...</string>
+    
+    
+    <string name="downloading">Downing and update automatically</string>
+    <string name="download_complete">Update successfully</string>
+    <string name="download_more">Download More</string>
+    <string name="network_connection_problem">Network Problem</string>
+    <string name="setting">Setting</string>
+    <string name="menu_settings">Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="connecting_network_update">Connecting the server</string>
+    <string name="downloading_ss_file">Downloading SS file</string>
+    <string name="already_newest_resource">Updated the lastest resource</string>
+    
+    <string name="one_click_share">Share SongStory</string>
+    <string name="share_content">SongStory -- tell the story behind the song, concentrating on offline reading and beliving in the power of content. More on http://www.chendihao.cn/SongStoryServer/</string>
+    
+    <string name="most_previous_song">Reach first song story</string>
+    <string name="most_next_song">Reach last song story</string>
+    <string name="previous_song">Previous song story</string>
+    <string name="next_song">Next song story</string>
+    
+    <string name="shake_and_shake">♪Shake and find your favourite music♪</string>
+    
+    <string name="press_one_more_time_to_exit">Press Back To Exit</string>
+
+</resources>

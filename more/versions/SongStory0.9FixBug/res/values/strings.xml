@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">SongStory</string>
+	<string name="copyright_alice_in_wc">Copyright © Alice in WC</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="first_run_configure">第一次启动，正在加载配置文件</string>
+    <string name="unziping_please_wait">正在加载SS文件，请稍侯</string>
+    <string name="already_newest_resource">已更新到最新资源了</string>
+    <string name="downloading">正在下载，稍后自动更新</string>
+    <string name="download_complete">下载更新成功</string>
+
+    <string name="download_more">下载更多</string>
+    <string name="network_connection_problem">网络连接故障</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="press_one_more_time_to_exit">再按一次退出程序</string>
+    
+    <string name="one_click_share">一键分享</string>
+    <string name="share_content">SongStory —— 发现歌曲背后的故事，专注于离线阅读，相信精品阅读的力量，详情请登录http://www.chendihao.cn/SongStoryServer/index.php</string>
+
+</resources>

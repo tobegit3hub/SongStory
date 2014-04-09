@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/welcome_grey"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_marginTop="40dip"
+            android:src="@drawable/welcome_icon" />
+
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="5dip"
+            android:background="@color/welcome_black">
+            
+	        <ImageView 
+	            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:paddingTop="3dip"
+            android:paddingBottom="3dip"
+            android:src="@drawable/welcome_song_story"/>
+	        
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/welcome_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/welcome_white"
+            android:textSize="17dip" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whiteline" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/welcome_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="20dip"
+            android:text="@string/copyright_alice_in_wc"
+            android:textColor="@color/welcome_grey"
+            android:textSize="12dip" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">SongStory</string>
+	<string name="copyright_alice_in_wc">Copyright © Alice in WC</string>
+	<string name="cantonese_category_title">粤语词坛</string>
+	<string name="mandarin_category_title">逃不掉的华语流行</string>
+	<string name="english_category_title">欧美的调调很动听</string>
+	<string name="asian_category_title">云端の日子</string>
+	<string name="other_category_title">第三电台</string>
+
+</resources>

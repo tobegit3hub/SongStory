@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:padding="5dip">
+    
+    <ImageView 
+            android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/song_story_icon" />
+    
+    <LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginLeft="10dip">
+    
+	    <TextView android:id="@+id/down_tv" 
+	               android:layout_width="wrap_content"    
+	               android:layout_height="wrap_content" 
+	               android:textSize="15dip" 
+	               android:textColor="#ffffff"
+	               android:text="@string/downloading_ss_file"
+	               />   
+	               
+	    <ProgressBar
+	        android:id="@+id/task_progress"
+	        android:layout_width="fill_parent"
+	        android:layout_height="15dip"
+	        android:layout_marginTop="2dip"
+	        android:max="100"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:progressDrawable="@drawable/notification_progressbar_bg" />
+    
+    </LinearLayout>
+    
+</LinearLayout>
